@@ -1,85 +1,62 @@
-# 🎲 Number Guessing Game
+# 🧮 Basic Calculator Program
 
-Welcome to the **Number Guessing Game** — a quick and fun Python project where you try to guess a secret number between 1 and 50 in just 5 tries! Can you beat the odds? 🤔🎯
-
----
-
-## 🕹️ How It Works
-
-- The computer randomly picks a number between **1 and 50**.
-- You have **5 attempts** to guess the correct number.
-- After each guess, the game will tell you if you're:
-  - 📉 Too low
-  - 📈 Too high
-  - ✅ Correct!
-- If you guess correctly, you win!
-- If not, the game reveals the number at the end. 🎬
+A simple Python program that performs basic arithmetic operations: addition, subtraction, multiplication, and division.  
+The program asks the user to input two numbers and an operation, then displays the result.
 
 ---
 
-## 📂 File
-
-PLPacademy/
-└── guessinggame.py # The guessing game script
-
-yaml
-Copy
-Edit
+## 📌 Features
+- Addition (`+`)
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`) with zero-division error handling
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repo:
+## 💻 How to Run
+1. **Clone this repository**:
    ```bash
-   git clone https://github.com/TimothyHogi/PLPacademy.git
-Navigate to the folder:
+   git clone https://github.com/YOUR_USERNAME/basic-calculator.git
+Navigate to the project folder:
 
 bash
 Copy
 Edit
-cd PLPacademy
-Run the script:
+cd basic-calculator
+Run the program:
 
 bash
 Copy
 Edit
-python guessinggame.py
-You’ll need Python installed. Download it here if you don’t have it: python.org
-
-💡 Sample Gameplay
-typescript
+python calculator.py
+📝 Example Usage
+mathematica
 Copy
 Edit
-Welcome to the Number guessing game
-Attempt 1/5 - Guess a number between 1 and 50: 25
-Too low!
-Attempt 2/5 - Guess a number between 1 and 50: 40
-Too high!
-Attempt 3/5 - Guess a number between 1 and 50: 33
-Correct! The number was 33. You got it in 3 tries!
-or
-
-lua
+Enter the first number: 10
+Enter the second number: 5
+Enter the operation (+, -, *, /): +
+10.0 + 5.0 = 15.0
+📂 File Structure
+bash
 Copy
 Edit
-Sorry! The number was 47. Better luck next time!
-🧠 Skills You’ll Learn
-Using random.randint() for number generation
-
-Working with for loops and range()
-
-Handling user input with input() and int()
-
-Conditional logic (if, elif, else)
+basic-calculator/
+│
+├── calculator.py   # Main program
+└── README.md       # Documentation
+⚙️ Requirements
+Python 3.x
 
 📜 License
-This project is free to use and modify. Great for beginners! 🚀
+This project is licensed under the MIT License - feel free to use and modify it.
 
-yaml
+kotlin
 Copy
 Edit
 
+If you paste this into a file named `README.md` in your repository, GitHub will automatically display it beautifully on the main page.  
+
 ---
 
-Just drop this into a file named `README.md` in the same folder as `guessinggame.py`, a
+If you want, I can **add emojis and styling to your calculator.py output** so it looks f
